@@ -1,5 +1,20 @@
 {
   "name": "searchable-resume",
+  "description": "Single Page App (SPA) searchable resume written in Purescript",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thewoolleyman/searchable-resume.git"
+  },
+  "author": "Chad Woolley",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/thewoolleyman/searchable-resume/issues"
+  },
+  "homepage": "https://github.com/thewoolleyman/searchable-resume#readme",
   "private": false,
   "dependencies": {
     "@babel/preset-react": "^7.0.0",
@@ -18,10 +33,12 @@
     "redux-devtools-extension": "^2.13.8",
     "redux-thunk": "^2.3.0",
     "ts-loader": "^6.0.2",
-    "typescript": "^3.5.1"
+    "typescript": "^3.5.1",
+    "webpack": "^4.37.0"
   },
   "version": "0.1.0",
   "devDependencies": {
+    "webpack-cli": "^3.3.6",
     "webpack-dev-server": "^3.4.1"
   }
 }
